@@ -1,0 +1,5 @@
+Program    = Statements
+Statements = Statement*
+Statement  = "let" Identifier "=" Expression ";"
+Expression = () // TODO
+Identifier = IDENT
